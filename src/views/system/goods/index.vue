@@ -92,7 +92,9 @@
       <el-table-column label="原价" align="center" prop="price" />
       <el-table-column label="卷后价/折后价" align="center" prop="priceA" />
       <el-table-column label="预估单价" align="center" prop="priceB" />
-      <el-table-column label="图片(用;号分割？)" align="center" prop="pictures" />
+      <el-table-column label="图片(用;号分割？)" align="center" prop="pictures">
+        <img src = "https://tb.yan-test.asia/O1CN014H7ucC1dyHUGUc3CJ_!!0-item_pic.jpg" style="width: 80px;height: 60px;"/>
+      </el-table-column>
       <el-table-column label="操作" align="center" class-name="small-padding fixed-width">
         <template slot-scope="scope">
           <el-button
